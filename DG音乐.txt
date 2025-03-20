@@ -1,0 +1,28 @@
+{
+  "spider": "https://ghp.ci/https://raw.githubusercontent.com/yuanruiyang/tvbox/main/jar/DG音乐.jar",
+  "wallpaper": "https://bing.img.run/rand.php",
+  "sites": [
+  
+    {
+      "key": "DG音乐仓",
+      "name": "DG音乐台",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "https://ddzb.fun/dgmusic/ych.json"
+    }
+  ],
+
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "url": "http://111.67.193.2:89/fm.txt",
+      "ua": "okhttp/3.15",
+      "logo": "https://live.fanmingming.com/radio/{name}.png"
+    }
+  ]
+  
+}
