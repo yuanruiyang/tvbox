@@ -1,0 +1,63 @@
+{
+	"spider": "https://ghp.ci/https://raw.githubusercontent.com/yuanruiyang/tvbox/main/jar/自制iptv.jar",
+	"logo": "https://www.xit.edu.cn/wlaq/UploadFiles_4283/202110/2021102616050834.gif",
+	"wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
+	"sites": [{
+			"key": "收集直播源",
+			"name": "自制收集直播源",
+			"type": 3,
+			"api": "csp_Douban",
+			"searchable": 0
+		}
+	],
+	"lives": [{
+   "name" : "mv",
+    "type" : 0,
+    "url" : "http://192.168.9.3:4567/files/iptv/mv.txt",
+    "playerType" : 1
+  }, 
+{
+    "name" : "iptv-api",
+    "type" : 0,
+    "url" : "http://192.168.9.3:4567/files/iptv/m3u/api.m3u",
+    "playerType" : 1
+  },
+{
+    "name" : "doube-itv",
+    "type" : 0,
+    "url" : "http://192.168.9.3:4567/files/iptv/m3u/doube.m3u",
+    "playerType" : 1
+  },{
+    "name" : "doube-itv-plus",
+    "type" : 0,
+    "url" : "http://192.168.9.3:4567/files/iptv/m3u/Sub.m3u",
+    "playerType" : 1
+  },
+{
+    "name" : "外网doube-itv",
+    "type" : 0,
+    "url" : "http://fn.ycywyxq.top:8227/Sub?type=m3u",
+    "playerType" : 1
+  },{
+    "name" : "外网doube-itv-plus",
+    "type" : 0,
+    "url" : "http://fn.ycywyxq.top:8228/Sub.m3u",
+    "playerType" : 1
+  },{
+    "name" : "php-epg",
+    "type" : 0,
+    "url" : "http://192.168.9.3:4567/files/iptv/m3u/tv.m3u",
+    "playerType" : 1
+  },{
+    "name" : "肥羊斗鱼",
+    "type" : 0,
+    "url" : "http://192.168.9.3:35455/douyuyqk.m3u",
+    "playerType" : 1
+  },{
+    "name" : "肥羊YY",
+    "type" : 0,
+    "url" : "http://192.168.9.3:35455/yylunbo.m3u",
+    "playerType" : 1
+  }
+	]
+}
